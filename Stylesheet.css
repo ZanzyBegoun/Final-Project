@@ -1,0 +1,65 @@
+@font-face {
+    font-family: myFont;
+    src: url('big_noodle_titling.ttf') format('truetype');
+}
+
+
+body{
+    font-family: myFont;
+}
+
+#mySidenav a {
+    position: absolute; 
+    left: 0px;  
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+}
+
+#mySidenav a:hover {
+    left: 0; 
+    color:black;
+}
+
+#about {
+    top: 20px;
+    background-color: cornflowerblue;
+    
+}
+
+#projects {
+    top: 100px;
+    background-color: cornflowerblue; 
+}
+
+#contact {
+    top: 180px;
+    background-color: cornflowerblue; 
+}
+
+
+    .Me {
+            position: fixed;
+            right:200;
+            bottom: -130;
+            
+           
+        }
+        .Me .Bio {
+            position: fixed;
+            right:200;
+            top:100;
+            display: none;
+          
+        }
+        .Me:hover .Bio {
+            display: block;
+        }
+    
+
+input{
+    z-index: 10;
+}
